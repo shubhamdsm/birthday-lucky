@@ -7,13 +7,16 @@ let btn = document.querySelector("#btn")
 
 
 function clickHandler(){
-    let addBirth = userDate+userMonth+userYear;
-    if(addBirth % userLuckyNumber===0){
-        document.querySelector('#print').innerText = 'your birthday is lucky'
-    }else{
-        document.querySelector('#print').innerText = 'sorry your birthday is not lucky'
-    }
-    
+    let addDate = Number(userDate.value);
+    let addMonth = Number(userMonth.value);
+    let addYear = Number(userYear.value);
+    let addLuckyNumber = Number(userLuckyNumber.value);
+    let addAll = addDate+addMonth+addYear;
+   if(addAll % addLuckyNumber ===0){
+        document.querySelector('#print').innerText = 'Your birthday is  lucky'
+   }else{
+       document.querySelector('#print').innerText = 'Your birthday is not lucky'
+   }
 }
 
 btn.addEventListener('click',clickHandler)
