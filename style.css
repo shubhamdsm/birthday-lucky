@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 600px;
+    margin: auto;
+    background-color: #DBEAFE;
+    font-family:'Redressed', cursive; 
+}
+
+nav{
+    background-color: #93C5FD;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 20px;
+}
+header img{
+    max-width: 100%;
+    height: auto;
+}
+input{
+    padding: 10px;
+    border: 2px solid #DBEAFE;
+    border-radius: 5px;    
+}
+button{
+    padding: 10px 35px;
+    background-color: #6A59FF;
+    border: 1px solid #6A59FF;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-family:'Redressed', cursive ;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.main-2{
+    margin-top: 20px;
+    margin-right: 15px;
+    text-align: center;
+}
+#print{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 64px;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #93C5FD;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.footer-header{
+    padding-bottom: 10px;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+
